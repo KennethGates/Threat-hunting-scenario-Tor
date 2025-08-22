@@ -39,6 +39,7 @@ DeviceFileEvents
 | where Timestamp >= datetime(2025-08-21T15:10:56.6220488Z)
 | order by Timestamp desc 
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
+
 ```<img width="1140" height="344" alt="Screenshot 2025-08-22 at 4 51 52 PM" src="https://github.com/user-attachments/assets/39895638-9b62-458f-87e6-38e3413e187c" />
 
 
